@@ -8,12 +8,13 @@ const listSpesa = [
     'pomodori4'
 ]
 
-let spesaEl = document.querySelector('p');
+let spesaEl = document.querySelector('div');
 let j = 0;
 
 while (j < listSpesa.length) {
     const product = listSpesa[j] 
-    console.log(product); 
+    console.log(product);
+    spesaEl.innerHTML = listSpesa[j]
     j++  
 }
 
