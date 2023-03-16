@@ -10,11 +10,12 @@ const listSpesa = [
 
 let spesaEl = document.querySelector('div');
 let j = 0;
+let product;
 
 while (j < listSpesa.length) {
-    const product = listSpesa[j] 
+    const product = listSpesa[j]; 
     console.log(product);
-    spesaEl.innerHTML = listSpesa[j]
+    spesaEl.innerHTML += listSpesa[j];
     j++  
 }
 
